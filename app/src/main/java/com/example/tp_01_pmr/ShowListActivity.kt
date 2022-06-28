@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tp_01_pmr.adapter.AdapterItem
@@ -27,6 +28,12 @@ class ShowListActivity : AppCompatActivity() {
         val button = findViewById<ImageButton>(R.id.buttonNvItem)
         val nouvelItem = findViewById<EditText>(R.id.NouveauItem)
         val Items = findViewById<RecyclerView>(R.id.Itens)
+
+        //Toolbar_standard comme l'original
+        val toolbar: Toolbar =findViewById(R.id.toolbar_standard)
+        setSupportActionBar(toolbar)
+        toolbar.title="Show List Activity"
+
 
         // dataset eh do tipo ItemToDo
         val adapter = AdapterItem(dataSet)

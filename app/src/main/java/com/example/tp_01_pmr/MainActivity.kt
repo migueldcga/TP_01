@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import com.google.android.material.bottomappbar.BottomAppBar
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,11 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button2)
         val typed = findViewById<EditText>(R.id.entree)
+
+        //Toolbar_standard comme l'original
+        val toolbar: Toolbar =findViewById(R.id.toolbar_standard)
+        setSupportActionBar(toolbar)
+        toolbar.title="Main Activity"
 
 
         // verifier si le buton a ete pressi
@@ -55,13 +61,14 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.ActionsPreference-> {
-                val pseudo = typed?.text.toString()
-                val bundle = Bundle().apply {
-                    putString("pseudo", pseudo)
-                }
-                val settingsIntent = Intent(this, SettingsActivity::class.java).apply {
-                    putExtras(bundle)
-                }
+//                val pseudo = typed?.text.toString()
+//                val bundle = Bundle().apply {
+//                    putString("pseudo", pseudo)
+//                }
+//                val settingsIntent = Intent(this, SettingsActivity::class.java).apply {
+//                    putExtras(bundle)
+//                }
+                val settingsIntent : Intent = Intent(this, SettingsActivity::class.java)
                 startActivity(settingsIntent)
             }
         }

@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_choix_list.xml" value="0.264" />
-        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_show_list.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_choix_list.xml" value="0.5665760869565217" />
+        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_show_list.xml" value="0.1" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/activity_show_list2.xml" value="0.2" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/layout.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/menu.xml" value="0.1" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/settings_activity.xml" value="0.1" />
+        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/toal.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/layout/toolbar.xml" value="0.264" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/menu-qwerty/menu.xml" value="0.5690866510538641" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/menu/menu.xml" value="0.253125" />
         <entry key="..\:/Users/ADERALDO/AndroidStudioProjects/PMR_01/app/src/main/res/xml/preferences.xml" value="0.2" />

@@ -22,10 +22,13 @@ id buttonNvItem
 id entree
 id settings
 id textView2
+id toolbar
+id toolbar_standard
 layout activity_choix_list
 layout activity_main
 layout activity_show_list
 layout settings_activity
+layout toolbar
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
