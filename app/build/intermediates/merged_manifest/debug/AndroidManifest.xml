@@ -21,6 +21,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.TP_01_PMR" >
         <activity
+            android:name="com.example.tp_01_pmr.ShowListActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.tp_01_pmr.ChoixListActivity"
             android:exported="false" />
         <activity

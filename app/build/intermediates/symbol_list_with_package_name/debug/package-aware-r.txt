@@ -1746,13 +1746,15 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
-id ButtonNouvListe
+id ButtonNouveauItem
 id CTRL
 id FUNCTION
-id Listes
+id Items2
+id Itens
 id META
 id NO_DEBUG
-id NouvelleListe
+id NouveauItem
+id NouvelleItem
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1835,6 +1837,7 @@ id blocking
 id bottom
 id bounce
 id button2
+id buttonNouveauItem
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2245,6 +2248,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_choix_list
 layout activity_main
+layout activity_show_list
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

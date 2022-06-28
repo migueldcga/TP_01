@@ -7,7 +7,7 @@
     tools:context=".ChoixListActivity">
 
     <EditText
-        android:id="@+id/NouvelleListe"
+        android:id="@+id/NouvelleItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -21,17 +21,17 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <ImageButton
-        android:id="@+id/ButtonNouvListe"
+        android:id="@+id/ButtonNouveauItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/NouvelleListe"
-        app:layout_constraintStart_toEndOf="@+id/NouvelleListe"
-        app:layout_constraintTop_toTopOf="@+id/NouvelleListe"
+        app:layout_constraintBottom_toBottomOf="@+id/NouvelleItem"
+        app:layout_constraintStart_toEndOf="@+id/NouvelleItem"
+        app:layout_constraintTop_toTopOf="@+id/NouvelleItem"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/Listes"
+        android:id="@+id/Items2"
         android:layout_width="286dp"
         android:layout_height="467dp"
         android:layout_marginTop="72dp"
