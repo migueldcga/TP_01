@@ -11,7 +11,7 @@
 9-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:6:5-31:19
+11-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:6:5-35:19
 12        android:allowBackup="true"
 12-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,34 +33,42 @@
 22        android:theme="@style/Theme.TP_01_PMR" >
 22-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:14:9-47
 23        <activity
-23-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:16:9-18:40
-24            android:name="com.example.tp_01_pmr.ShowListActivity"
+23-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:16:9-19:63
+24            android:name="com.example.tp_01_pmr.SettingsActivity"
 24-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:17:13-45
-25            android:exported="false" />
+25            android:exported="false"
 25-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:18:13-37
-26        <activity
-26-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:19:9-21:40
-27            android:name="com.example.tp_01_pmr.ChoixListActivity"
-27-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:20:13-46
-28            android:exported="false" />
-28-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:21:13-37
-29        <activity
-29-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:22:9-30:20
-30            android:name="com.example.tp_01_pmr.MainActivity"
-30-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:23:13-41
-31            android:exported="true" >
-31-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:24:13-36
-32            <intent-filter>
-32-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:25:13-29:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:26:17-69
-33-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:26:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:28:17-77
-35-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:28:27-74
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+26            android:label="@string/title_activity_settings" />
+26-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:19:13-60
+27        <activity
+27-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:20:9-22:40
+28            android:name="com.example.tp_01_pmr.ShowListActivity"
+28-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:21:13-45
+29            android:exported="false" />
+29-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:22:13-37
+30        <activity
+30-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:23:9-25:40
+31            android:name="com.example.tp_01_pmr.ChoixListActivity"
+31-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:24:13-46
+32            android:exported="false" />
+32-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:25:13-37
+33        <activity
+33-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:26:9-34:20
+34            android:name="com.example.tp_01_pmr.MainActivity"
+34-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:27:13-41
+35            android:exported="true" >
+35-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:28:13-36
+36            <intent-filter>
+36-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:29:13-33:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:30:17-69
+37-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:30:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:32:17-77
+39-->C:\Users\ADERALDO\AndroidStudioProjects\PMR_01\app\src\main\AndroidManifest.xml:32:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>

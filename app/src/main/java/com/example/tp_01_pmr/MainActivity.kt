@@ -3,6 +3,7 @@ package com.example.tp_01_pmr
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -38,4 +39,15 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+    // affiche les actions de preferences sur l'ecran
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu,menu)
+        return true
+    }
+
+    //
+
+
+
 }

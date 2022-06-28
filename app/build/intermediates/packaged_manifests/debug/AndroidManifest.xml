@@ -21,6 +21,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.TP_01_PMR" >
         <activity
+            android:name="com.example.tp_01_pmr.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
             android:name="com.example.tp_01_pmr.ShowListActivity"
             android:exported="false" />
         <activity
