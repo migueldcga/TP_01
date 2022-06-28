@@ -4,8 +4,8 @@
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\menu\\menu.xml"
     },
     {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -20,16 +20,12 @@
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\menu-qwerty_menu.xml.flat",
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\menu-qwerty\\menu.xml"
     },
     {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\layout_activity_show_list.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\layout\\activity_show_list.xml"
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\xml\\preferences.xml"
     },
     {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -40,16 +36,48 @@
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-pngs-17:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\xml\\root_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.tp_01_pmr.app-merged_res-22:/layout_activity_main.xml.flat",
+        "source": "com.example.tp_01_pmr.app-main-24:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\layout_activity_show_list.xml.flat",
+        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\layout\\activity_show_list.xml"
+    },
+    {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -60,32 +88,12 @@
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\layout_settings_activity.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\layout\\settings_activity.xml"
-    },
-    {
-        "merged": "com.example.tp_01_pmr.app-merged_res-22:/menu_menu.xml.flat",
-        "source": "com.example.tp_01_pmr.app-main-24:/menu/menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-pngs-17:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\xml_root_preferences.xml.flat",
-        "source": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-main-24:\\xml\\root_preferences.xml"
     },
     {
         "merged": "C:\\Users\\ADERALDO\\.gradle\\daemon\\7.3.3\\com.example.tp_01_pmr.app-merged_res-22:\\layout_activity_choix_list.xml.flat",

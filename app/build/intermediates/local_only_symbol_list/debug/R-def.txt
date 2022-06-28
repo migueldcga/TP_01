@@ -29,6 +29,8 @@ layout settings_activity
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+string action_preferences
+string actions_preferences
 string app_name
 string attachment_summary_off
 string attachment_summary_on
@@ -42,4 +44,5 @@ string title_activity_settings
 style Theme.TP_01_PMR
 xml backup_rules
 xml data_extraction_rules
+xml preferences
 xml root_preferences

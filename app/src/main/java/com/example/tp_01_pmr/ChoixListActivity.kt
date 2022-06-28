@@ -1,7 +1,10 @@
 package com.example.tp_01_pmr
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.Toast
@@ -10,6 +13,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.tp_01_pmr.adapter.ListAdapter
 
 class ChoixListActivity : AppCompatActivity() {
+
+    val button: ImageButton? = null
+    val nouvelleListe: EditText? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_choix_list)
@@ -43,5 +50,26 @@ class ChoixListActivity : AppCompatActivity() {
 
 
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.ActionsPreference-> {
+                val pseudo = nouvelleListe?.text.toString()
+                val bundle = Bundle().apply {
+                    putString("pseudo", pseudo)
+                }
+                val settingsIntent = Intent(this, SettingsActivity::class.java).apply {
+                    putExtras(bundle)
+                }
+                startActivity(settingsIntent)
+            }
+        }
+        return true
     }
 }

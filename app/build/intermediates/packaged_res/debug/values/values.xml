@@ -15,6 +15,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="action_preferences">Preférénces</string>
+    <string name="actions_preferences">Preférénces</string>
     <string name="app_name">TP_01_PMR</string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
