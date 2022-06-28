@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             val pseudo: String = typed.text.toString()
             // Toast.makeText(this, pseudo, Toast.LENGTH_LONG).show()
 
+            // creer un nouvel utilisateur si necessaire
+
+
+
             // creer ponte d'info pour la nouvelle activité
             val bundle = Bundle()
             bundle.putString("pseudo", pseudo)
