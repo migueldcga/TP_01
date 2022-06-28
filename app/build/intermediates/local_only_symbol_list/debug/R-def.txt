@@ -15,7 +15,7 @@ id Itens
 id NouveauItem
 id NouvelleItem
 id button2
-id buttonNouveauItem
+id buttonNvItem
 id entree
 id textView2
 layout activity_choix_list

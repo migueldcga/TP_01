@@ -1837,7 +1837,7 @@ id blocking
 id bottom
 id bounce
 id button2
-id buttonNouveauItem
+id buttonNvItem
 id buttonPanel
 id cache_measures
 id cancel_button

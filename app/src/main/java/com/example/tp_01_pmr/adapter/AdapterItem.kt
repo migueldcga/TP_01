@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tp_01_pmr.ShowListActivity
+import android.widget.CheckBox
 
 
 class AdapterItem(private val dataSet: MutableList<String>) : RecyclerView.Adapter<AdapterItem.ItemViewHolder>(),View.OnClickListener {
@@ -14,7 +15,7 @@ class AdapterItem(private val dataSet: MutableList<String>) : RecyclerView.Adapt
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
 
-        val itemView = TextView(parent.context)
+        val itemView = CheckBox(parent.context)
         itemView.setOnClickListener(this)
         //         LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent, false)
         return ItemViewHolder(itemView)
@@ -31,11 +32,11 @@ class AdapterItem(private val dataSet: MutableList<String>) : RecyclerView.Adapt
     override fun onClick(view: View) {
 
         val recyclerView = view.parent as RecyclerView
-        val listTdIndex = recyclerView.getChildLayoutPosition(view)
-
+//        val listTdIndex = recyclerView.getChildLayoutPosition(view)
+        val checkBox = view as CheckBox
         val intentList = Intent(view.context, ShowListActivity::class.java)
 //        intent.putExtras(bundle)
-        view.context.startActivity(intentList)
+//        view.context.startActivity(intentList)
     }
 
 

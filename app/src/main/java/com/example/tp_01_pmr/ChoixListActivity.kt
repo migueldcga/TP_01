@@ -14,11 +14,14 @@ class ChoixListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_choix_list)
 
-        val dataSet = mutableListOf<String>("cu", "dedo", "buceta","lingua")
-        val pseudo = intent.extras?.getString("pseudo") //  en cas si c'est nul ?:""
         val button = findViewById<ImageButton>(R.id.ButtonNouveauItem)
         val nouvelleListe = findViewById<EditText>(R.id.NouvelleItem)
         val Listes = findViewById<RecyclerView>(R.id.Items2)
+
+
+        val dataSet = mutableListOf<String>("cu", "dedo", "buceta","lingua")
+        val pseudo = intent.extras?.getString("pseudo") //  en cas si c'est nul ?:""
+
         val adapter = ListAdapter(dataSet)
         Listes.adapter = adapter
         Listes.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL ,false)
