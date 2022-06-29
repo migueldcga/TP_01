@@ -2,10 +2,10 @@ package com.example.tp_01_pmr
 
 class ProfileListeToDo (
     private var login: String ="",
-    private var mesListesToDo: MutableList<ListeToDo> = mutableListOf<ListeToDo>(ListeToDo(""))
-
+    private var mesListesToDo: MutableList<ListeToDo> = mutableListOf<ListeToDo>()
     )
 {
+//    constructor(mesListesTodo: MutableList<ListeToDo>) : this("", mesListesToDo);
 
     fun getMesListesToDo(): MutableList<ListeToDo> {
         return mesListesToDo;

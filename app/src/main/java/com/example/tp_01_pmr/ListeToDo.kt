@@ -1,20 +1,28 @@
 package com.example.tp_01_pmr
 
 class ListeToDo (
-    private var titreListToDo: String ="",
-    private var lesItems: MutableList<ItemToDo> = mutableListOf<ItemToDo>(ItemToDo())
-    )
+    private var titreListeToDo: String ="",
+        )
 {
+
+    private var lesItems: MutableList<ItemToDo> = mutableListOf<ItemToDo>(ItemToDo())
     fun setTitreListToDo(titre: String) {
-        this.titreListToDo = titre
+        this.titreListeToDo = titre
     }
 
     fun getTitreListToDo(): String {
-        return this.titreListToDo
+        return this.titreListeToDo
     }
 
+    fun setLesItems(lesItems: MutableList<ItemToDo>) {
+        this.lesItems = lesItems
+    }
+
+    fun getLesItems(): MutableList<ItemToDo> {
+        return this.lesItems
+    }
 
     override fun toString(): String {
-        return "{\"titreListToDo\": \"${titreListToDo}\", \"lesItems\": ${lesItems}}"
+        return "Liste" + titreListeToDo + " : " + lesItems.size + "listes";
     }
 }

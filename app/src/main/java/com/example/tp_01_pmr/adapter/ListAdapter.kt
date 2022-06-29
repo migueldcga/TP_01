@@ -7,20 +7,24 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tp_01_pmr.ChoixListActivity
+import com.example.tp_01_pmr.ListeToDo
+import com.example.tp_01_pmr.ProfileListeToDo
 import com.example.tp_01_pmr.ShowListActivity
 
 
-class ListAdapter(private val dataSet: MutableList<String>) : RecyclerView.Adapter<ListAdapter.ItemViewHolder>(),View.OnClickListener {
+class ListAdapter(
+    private val dataSet: MutableList<ListeToDo>,
+    private val profile:ProfileListeToDo
+    ) : RecyclerView.Adapter<ListAdapter.ItemViewHolder>(),View.OnClickListener {
 
-    override fun getItemCount(): Int = dataSet.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
 
         val itemView = TextView(parent.context)
+
         itemView.setOnClickListener(this)
         //         LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent, false)
         return ItemViewHolder(itemView)
-
 
     }
 
@@ -33,11 +37,12 @@ class ListAdapter(private val dataSet: MutableList<String>) : RecyclerView.Adapt
     override fun onClick(view: View) {
 
         val recyclerV = view.parent as RecyclerView
-        val listTdIndex = recyclerV.getChildLayoutPosition(view)
+        val listeToDoIndex = recyclerV.getChildLayoutPosition(view)
 
 
         val bundle = Bundle().apply {
-            putInt("listTD index", listTdIndex)
+            putInt("listeToDo index", listeToDoIndex)
+            putString("pseudo", profile.getLogin())
         }
         val intentList = Intent(view.context, ShowListActivity::class.java).apply {
             putExtras(bundle)
@@ -48,15 +53,17 @@ class ListAdapter(private val dataSet: MutableList<String>) : RecyclerView.Adapt
 
     }
 
+    override fun getItemCount(): Int = dataSet.size
+
 
 
 
 class ItemViewHolder(private val itemView : View) : RecyclerView.ViewHolder(itemView){
 
-    fun bind (text : String){
+    fun bind (Liste : ListeToDo){
 
         val conteudo = itemView as TextView
-        conteudo.text = text
+        conteudo.text = Liste.getTitreListToDo()
 
     }
 }
