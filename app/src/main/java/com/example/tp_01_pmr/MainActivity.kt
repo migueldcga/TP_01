@@ -47,12 +47,16 @@ class MainActivity : AppCompatActivity() {
             var pseudo: String = typed.text.toString()
 //            Toast.makeText(this, "cu" , Toast.LENGTH_LONG).show()
 
-//             creer un nouvel utilisateur avec sa nouvelle liste si necessaire
+//             creer un nouvel utilisateur avec une liste et item standard initial si necessaire
             if (sharedPreferences?.contains(pseudo) == false) {
                 Toast.makeText(this, "inedito" , Toast.LENGTH_LONG).show()
+
                 val profile = ProfileListeToDo(pseudo)
+
                 val listToDo = ListeToDo("Liste 0")
+                listToDo.setLesItems(mutableListOf<ItemToDo>(ItemToDo("Item 0", false )))
                 val dataSet = mutableListOf<ListeToDo> (listToDo)
+
                 profile.setMesListesToDo(dataSet)
                 val profileGson = Gson().toJson(profile)
                 sharedPreferences?.edit()?.apply() {

@@ -7,11 +7,15 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tp_01_pmr.ShowListActivity
 import android.widget.CheckBox
+import com.example.tp_01_pmr.ItemToDo
+import com.example.tp_01_pmr.ProfileListeToDo
+import com.google.gson.Gson
 
 
-class AdapterItem(private val dataSet: MutableList<String>) : RecyclerView.Adapter<AdapterItem.ItemViewHolder>(),View.OnClickListener {
+class AdapterItem(private val dataSet: MutableList<ItemToDo>,
+                  private val profile: ProfileListeToDo
+) : RecyclerView.Adapter<AdapterItem.ItemViewHolder>(),View.OnClickListener {
 
-    override fun getItemCount(): Int = dataSet.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
 
@@ -32,22 +36,34 @@ class AdapterItem(private val dataSet: MutableList<String>) : RecyclerView.Adapt
     override fun onClick(view: View) {
 
         val recyclerView = view.parent as RecyclerView
-//        val listTdIndex = recyclerView.getChildLayoutPosition(view)
+        val listTodoIndex = recyclerView.getChildLayoutPosition(view)
         val checkBox = view as CheckBox
         val intentList = Intent(view.context, ShowListActivity::class.java)
-//        intent.putExtras(bundle)
-//        view.context.startActivity(intentList)
+
+        dataSet[listTodoIndex].setFait(checkBox.isChecked)
+
+
+        val sharedPreferences = view.context.getSharedPreferences("Profiles",0)
+        val profileGson = Gson().toJson(profile)
+        sharedPreferences?.edit()?.apply {
+            putString(profile.getLogin(), profileGson)
+            apply()
+        }
     }
+
+    override fun getItemCount(): Int = dataSet.size
+
 
 
 
 
     class ItemViewHolder(private val itemView : View) : RecyclerView.ViewHolder(itemView){
 
-        fun bind (text : String){
+        fun bind (text : ItemToDo){
 
-            val conteudo = itemView as TextView
-            conteudo.text = text
+            val conteudo = itemView as CheckBox
+            conteudo?.text = text.getDescription()
+            conteudo?.isChecked = text.getFait()
 
         }
     }

@@ -19,8 +19,6 @@ class ChoixListActivity : AppCompatActivity() {
 
     private var sharedPreferences: SharedPreferences? = null
     private var profile: ProfileListeToDo? = null
-//    private var dataSet: MutableList<ListeToDo>? = null
-//    private val Listes = findViewById<RecyclerView>(R.id.Items2)
 
     val button: ImageButton? = null
 //    private var nouvelleListe: EditText? = null
@@ -36,7 +34,7 @@ class ChoixListActivity : AppCompatActivity() {
         val button = findViewById<ImageButton>(R.id.ButtonNouveauItem)
 //        val nouvelleListe = findViewById<EditText>(R.id.NouvelleItem)
 //        val Listes = findViewById<RecyclerView>(R.id.Items2)
-        var dataSet: MutableList<ListeToDo>? = null
+//         dataSet: MutableList<ListeToDo>? = null
 
 
         //Toolbar_standard comme l'original
@@ -51,7 +49,7 @@ class ChoixListActivity : AppCompatActivity() {
         val jsonProfile = sharedPreferences?.getString(pseudo,"DEFAULT")
         profile = Gson().fromJson(jsonProfile, ProfileListeToDo::class.java)
 
-        dataSet = profile?.getMesListesToDo()
+         var dataSet = profile?.getMesListesToDo()
 
 //        val listToDo = ListeToDo("Liste 0")
 //        val dataSet = mutableListOf<ListeToDo> (listToDo)
@@ -72,11 +70,11 @@ class ChoixListActivity : AppCompatActivity() {
 
        // Toast.makeText(this, pseudo , Toast.LENGTH_LONG).show()
         button.setOnClickListener {
+
+
             val nouvelleListe: EditText? = findViewById<EditText>(R.id.NouvelleItem)
 
             val listToDo = ListeToDo(nouvelleListe?.text.toString())
-            Toast.makeText(this, nouvelleListe?.text.toString() , Toast.LENGTH_LONG).show()
-
             dataSet!!.add(listToDo)
             Listes.adapter?.notifyItemInserted(dataSet!!.size -1)
 
